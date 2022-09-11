@@ -1,0 +1,188 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: scroll;
+}
+.container {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.description h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+.experience h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.work h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;  
+}
+.accordion-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px!important;
+    line-height: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color:#fff!important;
+}
+
+.coral {
+    color:#FFA07A;
+}
+@media screen and (max-width:480px){
+    .accordion .coral {
+    display: contents;
+}
+}
+.education .coral {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.date {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+
+.experience ol {
+    padding: 0;
+    margin-left:15px;
+}
+.experience ol li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.experience ol li::marker {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.experience ol li a {
+    color: #595959;
+    margin-left: 10px;
+}
+.experience ol li a:hover {
+    color: #FFA07A;
+}
+
+.education h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.container p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-align: justify;
+}
+.sidebar, .sidebar a, .sidebar .bi::before {
+    background: #008B8B;
+    background-clip: content-box;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.sidebar h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.sidebar li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.sidebar ul {
+    padding: 0px;
+    margin-left: 20px;
+}
+.sidebar li::marker {
+    color:#FFA07A;
+}
+.skills {
+    padding: 0 40px;
+}
+.soft {
+    padding: 0 40px;
+}
+.contacts {
+    padding: 0 40px;
+}
+.contacts p {
+    margin-bottom: 0px;
+}
+.contacts a {
+    padding-left: 7px;
+}
+.contacts a:hover {
+    color:#FFA07A;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #008B8B!important;
+    box-shadow:0 0 0 0.25rem rgba(255, 160, 122, 0.25)!important;
+}
+
+.accordion-button:focus {
+    box-shadow:0 0 0 0.25rem rgba(255, 160, 122, 0.25)!important;
+}
+
+@media screen and (min-width:1319px){
+    .description-text {
+        width: 75%;
+    }
+}
+.bold-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image:var(--bs-accordion-btn-icon)!important;
+}
