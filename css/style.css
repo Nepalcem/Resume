@@ -117,10 +117,17 @@ body {
     text-align: justify;
 }
 .sidebar, .sidebar a, .sidebar .bi::before {
-    background: #0A758F;
-    background-clip: content-box;
-    border-radius: 5px;
+    /* background-clip: content-box; */
+   /* border-radius: 5px; */
     color: #fff;
+}
+
+.sidebar-content {
+    background: #0A758F;
+    border-radius: 0 0 7px 7px;
+}
+.sidebar .image img{
+    border-radius: 7px 7px 0 0;
 }
 
 .sidebar h3 {
@@ -135,7 +142,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 22px;
 }
 .sidebar ul {
     padding: 0px;
@@ -145,13 +152,13 @@ body {
     color:#FFA07A;
 }
 .skills {
-    padding: 0 40px;
+    padding: 0 30px;
 }
 .soft {
-    padding: 0 40px;
+    padding: 0 30px;
 }
 .contacts {
-    padding: 0 40px;
+    padding: 0 30px;
 }
 .contacts p {
     margin-bottom: 0px;
