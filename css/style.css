@@ -117,7 +117,7 @@ body {
     text-align: justify;
 }
 .sidebar, .sidebar a, .sidebar .bi::before {
-    background: #008B8B;
+    background: #0A758F;
     background-clip: content-box;
     border-radius: 5px;
     color: #fff;
@@ -164,7 +164,7 @@ body {
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #008B8B!important;
+    background-color: #0A758F!important;
     box-shadow:0 0 0 0.25rem rgba(255, 160, 122, 0.25)!important;
 }
 
@@ -186,4 +186,15 @@ body {
 
 .accordion-button:not(.collapsed)::after {
     background-image:var(--bs-accordion-btn-icon)!important;
+}
+
+
+.content_block {
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+ol {
+    margin-bottom: 0!important;
 }
